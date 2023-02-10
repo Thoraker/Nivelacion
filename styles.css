@@ -1,9 +1,8 @@
+* {
+	font-family: Caveat;
+}
 body {
 	background: black;
-}
-* {
-	border: 1px dashed red;
-	min-height: 10px;
 }
 .postcard {
 	background: white;
@@ -13,6 +12,7 @@ body {
 }
 .postcard-header {
 	display: flex;
+	height: 70px;
 }
 .postcard-header img {
 	width: 50px;
@@ -34,12 +34,14 @@ body {
 	width: 50%;
 }
 imput {
+	border: none;
 	border-bottom: solid grey;
 }
 .postcard-footer {
 	text-align: center;
 }
 button {
-	background-color: cornflowerblue;
+	background-color: lightblue;
 	padding: 3px 8px;
+	border-color: black grey grey black;
 }
