@@ -33,8 +33,8 @@ body {
 	padding: 5px;
 	width: 50%;
 }
-imput {
-	border: none;
+input {
+	border: 0;
 	border-bottom: solid grey;
 }
 .postcard-footer {
